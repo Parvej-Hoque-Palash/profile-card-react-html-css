@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile-card{
+    width: 90%;
+    max-width: 450px;
+    text-align: center;
+    background: #fff;
+    color: #333;
+    border-radius: 20px;
+}
+.cover-pic{
+    border-radius: 20px 20px 0 0;
+    display: block;
+    width: 100%;
+}
+.profile-pic{
+    width: 140px;
+    border-radius: 50%;
+    margin-top: -120px;
+}
+.profile-card h2{
+    font-weight: 600;
+}
+.follow-btn{
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #ff004f;
+    color: #555;
+    padding: 6px 35px;
+    margin: 25px 0;
+}
